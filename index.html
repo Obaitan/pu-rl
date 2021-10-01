@@ -64,25 +64,39 @@
     <div class="container-fluid app p-0">
         <section class="hero" id="hero">
             <div class="row ">
-                <div class="snaz col-lg-5">
-                    <div></div> 
-                    <div>
-                        <a class="btn btn-sign" href="#!" role="button">Sign Up</a>
-                    </div>                
+                <div class="snaz col-lg-5">                   
+                    <div class="container h-100">
+                        <div class="row align-items-center h-100">
+                            <div class="col-md-9 mx-auto">
+                                <div id="link"></div>
+                                <p class="plan">Get started with our free plan</p>
+                                <a class="btn btn-white btn-large btn-block" href="#!" role="button">Sign Up</a>
+                            </div>
+                        </div>                            
+                    </div>
                 </div>
                 <div class="col-lg-7 row align-items-center">
                     <div class="holder">
                         <p class="bold-text">This is what you people should use henceforth! No more cuttly.</p>
                         <p class="top-description">Use this to shorten links, get QR codes, make amala, fry dodo and to do your luandry as well. And for many other pressing concerns.</p>
+                        <div id="link-one" class="text-center main-color">                            
+                            <h2 id="link-text">
+                                This is a really long link
+                            </h2>                            
+                        </div>
+
+                        <div id="link-two" class="text-center main-color">
+                            <h2 id="link-text">
+                                This is another long and meaningless link
+                            </h2>
+                        </div>
                         <div class="my-5">
-                            <div id="link"></div>
                             <form class="row align-items-center">
                                 <div class="col-md-9">
                                     <div class="form-outline">
                                         <input type="text" id="inputLink" class="form-control form-control-lg" placeholder="Enter a link" />                                       
                                     </div>
-                                </div>                          
-                                
+                                </div>
                                 <div class="col-md-3 px-0">
                                     <button type="submit" class="btn btn-try btn-lg">try For Free</button>
                                 </div>                                
@@ -304,7 +318,7 @@
                             <div class="text-center">
                                 <h4 class="mb-5"><strong>Contact Us</strong></h4>
                             </div>
-                            <form>
+                            <form id="contact-form">
                                 <div class="form-outline mb-4">
                                     <input type="text" id="form4Example1" class="form-control" />
                                     <label class="form-label" for="form4Example1">Name</label>
@@ -330,6 +344,10 @@
 
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

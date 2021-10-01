@@ -60,3 +60,22 @@ shortenLink();
 setInterval(shortenLink, 6000);
 
 
+// To create fade in/fade out elements
+$(document).ready(function () {
+  loopbox();
+  function loopbox() {
+    $("#link-one")
+      .fadeIn(750)
+      .delay(3000)
+      .fadeOut(750, function () {
+        $("#link-two")
+          .fadeIn(750)
+          .delay(3000)
+          .fadeOut(750, function () {
+            loopbox();              
+          });
+      });
+  }
+});
+
+

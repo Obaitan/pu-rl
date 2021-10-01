@@ -14,7 +14,23 @@ body {
   box-shadow: none;
 }
 
+.btn-white {
+  font-size: 1.25rem;
+  text-transform: capitalize;
+  color: rgb(255, 64, 115);
+  background-color: #fff;
+  padding: 0.85rem 1.5rem 0.75rem;
+}
+
+.btn-white:hover {
+  color: rgb(255, 64, 115);
+  background-color: #fff;
+  /* box-shadow: none; */
+}
+
 .btn-sign {
+  font-size: 0.9rem;
+  text-transform: capitalize;
   color: rgb(255, 64, 115);
   background-color: transparent;
   border: 1px solid rgb(255, 64, 115);
@@ -221,6 +237,14 @@ nav {
   background-repeat: no-repeat;
 }
 
+.plan {
+  font-size: 1.65rem;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+}
+
 .holder {
   padding: 12rem 8rem 2rem 8rem;
 }
@@ -265,7 +289,7 @@ nav {
   text-align: center;
   transition: all 0.5s ease;
   width: 100%;
-  height: 150px;
+  height: 125px;
 }
 
 /* Features Section */
@@ -366,7 +390,7 @@ nav {
   padding: 5rem 1rem 4rem 1rem;
 }
 
-form {
+#contact-form {
   padding: 4rem 3rem;
   border-radius: 5px;
   background-color: #fff;
