@@ -61,10 +61,11 @@ setInterval(shortenLink, 6000);
 
 
 var i = 0;
-var a;
-a = document.getElementById("shorten");
 var txt = 'www.whatisthis.com/=?this-is-one-of-those-rather-long-links?!'; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
+var a = document.getElementById("shorten");
+var timer = 0
+
 
 function typeWriter() {
   if (i < txt.length) {
@@ -75,25 +76,7 @@ function typeWriter() {
     a.innerHTML = "www.whatisthis.com/fixed-link";
   }, 4000);
 }
-typeWriter()
-setInterval(typeWriter, 5000)
 
-// To create fade in/fade out elements
-$(document).ready(function () {
-  loopbox();
-  function loopbox() {
-    $("#link-one")
-      .fadeIn(750)
-      .delay(3000)
-      .fadeOut(750, function () {
-        $("#link-two")
-          .fadeIn(750)
-          .delay(3000)
-          .fadeOut(750, function () {
-            loopbox();              
-          });
-      });
-  }
-});
-
+typeWriter();
+setInterval(typeWriter, 5000);
 
