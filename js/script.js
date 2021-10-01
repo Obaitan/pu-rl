@@ -60,6 +60,24 @@ shortenLink();
 setInterval(shortenLink, 6000);
 
 
+var i = 0;
+var a;
+a = document.getElementById("shorten");
+var txt = 'www.whatisthis.com/=?this-is-one-of-those-rather-long-links?!'; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("shorten").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  } setTimeout(function () {
+    a.innerHTML = "www.whatisthis.com/fixed-link";
+  }, 4000);
+}
+typeWriter()
+setInterval(typeWriter, 5000)
+
 // To create fade in/fade out elements
 $(document).ready(function () {
   loopbox();
