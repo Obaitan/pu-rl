@@ -42,30 +42,29 @@ function shortenLink() {
   a.innerHTML = "<img src='images/svg/link6.svg' class='thumb' />";
   setTimeout(function () {
     a.innerHTML = "<img src='images/svg/link5.svg' class='thumb' />";
-  }, 1000);
+  }, 900);
   setTimeout(function () {
     a.innerHTML = "<img src='images/svg/link4.svg' class='thumb' />";
-  }, 2000);
+  }, 1800);
   setTimeout(function () {
     a.innerHTML = "<img src='images/svg/link3.svg' class='thumb' />";
-  }, 3000);
+  }, 2700);
   setTimeout(function () {
     a.innerHTML = "<img src='images/svg/link2.svg' class='thumb' />";
-  }, 4000);
+  }, 3600);
    setTimeout(function () {
     a.innerHTML = "<img src='images/svg/link1.svg' class='thumb' />";
-  }, 5000);
+  }, 4500);
 }
 shortenLink();
-setInterval(shortenLink, 6000);
+setInterval(shortenLink, 4500);
 
 
 var i = 0;
-var txt = 'www.whatisthis.com/=?this-is-one-of-those-rather-long-links?!'; /* The text */
+var txt = 'https://.whatisthis.com/=?this-is-one-of-those-rather-long-and-hard-to-take-in-links?!'; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 var a = document.getElementById("shorten");
 var timer = 0
-
 
 function typeWriter() {
   if (i < txt.length) {
@@ -73,10 +72,30 @@ function typeWriter() {
     i++;
     setTimeout(typeWriter, speed);
   } setTimeout(function () {
-    a.innerHTML = "www.whatisthis.com/fixed-link";
-  }, 4000);
+    a.innerHTML = "whatisthis.com/find-out";
+  }, 5000);
 }
 
 typeWriter();
-setInterval(typeWriter, 5000);
+// setInterval(typeWriter, 5000);
 
+// var intervalId = window.setInterval(function(){
+//   typeWriter();
+// }, 5000)
+
+// Contact Us Panel
+function openNav() {
+  document.getElementById("contact-panel").style.width = "700px";
+}
+
+function closeNav() {
+  document.getElementById("contact-panel").style.width = "0";
+}
+
+// Limit input to the + sign and numbers only
+function isNumberKey(evt) {
+  var charCode = evt.which ? evt.which : event.keyCode;
+  if (charCode != 43 && charCode > 31 && (charCode < 48 || charCode > 57))
+    return false;
+  return true;
+}
