@@ -261,7 +261,7 @@ header {
 
 /* Hero Section */
 .hero {
-  min-height: 90vh;
+  min-height: 100vh;
   width: 100%;
   background-image: url("../images/background.png");
   background-position: center;
@@ -337,13 +337,14 @@ header {
   padding: 5rem 0;
 }
 
-.palette {
+.palette, .pricing-palette {
   background-color: #fff;
   padding: 2rem;
   border-radius: 10px;
   transition-duration: 650ms;
   box-shadow: 1px 2px 3px 1px #0224570a;
 }
+
 
 .palette:hover {
   transform: translateY(-5px);
@@ -589,6 +590,32 @@ textarea:focus.form-line {
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
 }
+
+.price-header, .price-header2, .price-header3 {
+  border: 2px solid #6c63ff; 
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #6c63ff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.price-header2{
+  color: #fff;
+  border: 2px solid #63a8ff;
+  background-color: #63a8ff;
+}
+
+.price-header3 {
+  color: #fff;
+  border: 2px solid #6c63ff;
+  background-color: #6c63ff;
+}
+
+#pricing{
+  padding: 4rem 0 5rem;
+}
+
 
 /* Footer Section */
 footer {
