@@ -97,7 +97,7 @@
                 <div class="text-center">
                   <span class="form-check-label">Already have an account?</span>
                   <span class="mx-1"></span>
-                  <a href="sign-in.html" class="form-check-label accept"
+                  <a href="sign-in.php" class="form-check-label accept"
                     >Sign In</a
                   >
                 </div>

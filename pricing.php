@@ -1,199 +1,195 @@
-
+<?php include 'includes/navbar.php' ?>
 
     <div class="container-fluid app p-0">
-      <section class="pricing" id="pricing">
+      <section class="plan-div">
         <div class="container">
           <div class="text-center">
-            <h4 class="mb-5"><strong>Pricing</strong></h4>
-            <div class="btn-group mb-5" role="group" aria-label="Basic example">
-              <button type="button" class="btn btn-lg btn-billing">
-                Monthly billing
-              </button>
-              <button type="button" class="btn btn-lg btn-billing">
-                Annual billign <small>(2 months FREE)</small>
-              </button>
+            <h4 class="mb-5"><strong>Pricing Plans</strong></h4>
+          </div>          
+          <div class="col-xl-10 mx-auto plan-base">
+            <div class="d-flex justify-content-center mb-3">
+              <p class="palette-cap mc2">pay monthly</p>
+              <!-- Toggle switch -->
+              <label class="switch mx-3">
+                <input type="checkbox">
+                <span class="slider round"></span>
+              </label>
+              <p class="palette-cap mc2">Pay yearly</p>
             </div>
-          </div>
+            <div class="row g-3">
+              <div class="col-lg-4">
+                <div class="palette2">                 
+                  <div class="">
+                    <p class="price-cap mb-0">Free Plan</p>
+                    <p class="price-desc">For bla bla bla</p>
+                  </div>
+                  <hr>
+                  <div class="rest">
+                    <p class="price-resp2 mc3">Links</p>
+                    <div class="d-flex">
+                      <p class="price-prop">Links / Redirects</p>
+                      <p class="price-resp ms-auto">Unlimited</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">Link analytics history</p>
+                      <p class="price-resp ms-auto">Last 30 days</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">Branded domains</p>
+                      <p class="price-resp ms-auto">Up to 3</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">API rate limit</p>
+                      <p class="price-resp ms-auto">6 calls / 60 sec</p>
+                    </div>
+                  </div>
+                  
+                  <div class="rest mt-3">
+                     <p class="price-resp2 mc3">QR Codes</p>
+                    <div class="d-flex">
+                      <p class="price-prop">Links / Redirects</p>
+                      <p class="price-resp ms-auto">Unlimited</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">Link analytics history</p>
+                      <p class="price-resp ms-auto">Last 30 days</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">Branded domains</p>
+                      <p class="price-resp ms-auto">Up to 3</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">API rate limit</p>
+                      <p class="price-resp ms-auto">6 calls / 60 sec</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <p class="price-price">$ 0.00 <span class="price-desc" style="font-weight: 400;">/ Month</span></p>
+                  <div class="">
+                    <button type="button" class="btn btn-explore btn-block">
+                      sign up
+                    </button>
+                  </div>
+                </div>
+              </div>
 
-          <div class="row gx-lg-4">
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div
-                  class="card-header py-3"
-                  style="border: 1px solid rgb(7, 160, 7)"
-                >
-                  <p class="text-uppercase small green mb-2">
-                    <strong>Free</strong>
-                  </p>
-                  <h5 class="green mb-0">Free</h5>
+              <div class="col-lg-4">
+                <div class="palette2">                 
+                  <div class="">
+                    <p class="price-cap mb-0">Basic Plan</p>
+                    <p class="price-desc">For bla bla bla</p>
+                  </div>
+                  <hr>
+                  <div class="rest">
+                    <p class="price-resp2 mc3">Links</p>
+                    <div class="d-flex">
+                      <p class="price-prop">Links / Redirects</p>
+                      <p class="price-resp ms-auto">Unlimited</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">Link analytics history</p>
+                      <p class="price-resp ms-auto">Last 30 days</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">Branded domains</p>
+                      <p class="price-resp ms-auto">Up to 3</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">API rate limit</p>
+                      <p class="price-resp ms-auto">6 calls / 60 sec</p>
+                    </div>
+                  </div>
+                  
+                  <div class="rest mt-3">
+                     <p class="price-resp2 mc3">QR Codes</p>
+                    <div class="d-flex">
+                      <p class="price-prop">Links / Redirects</p>
+                      <p class="price-resp ms-auto">Unlimited</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">Link analytics history</p>
+                      <p class="price-resp ms-auto">Last 30 days</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">Branded domains</p>
+                      <p class="price-resp ms-auto">Up to 3</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">API rate limit</p>
+                      <p class="price-resp ms-auto">6 calls / 60 sec</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <p class="price-price mc">$ 9.00 <span class="price-desc" style="font-weight: 400;">/ Month</span></p>
+                  <div class="">
+                    <button type="button" class="btn btn-try btn-block">
+                      sign up
+                    </button>
+                  </div>
                 </div>
-                <div class="card-body">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Feature</li>
-                    <li class="list-group-item">Feature</li>
-                    <li class="list-group-item">Feature</li>
-                  </ul>
-                </div>
-                <div class="card-footer bg-white py-4">
-                  <button type="button" class="btn btn-green btn-sm">
-                    Get it
-                  </button>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="palette2">                 
+                  <div class="">
+                    <p class="price-cap mc2 mb-0">Premium Plan</p>
+                    <p class="price-desc">For bla bla bla</p>
+                  </div>
+                  <hr>
+                  <div class="rest">
+                    <p class="price-resp2 mc3">Links</p>
+                    <div class="d-flex">
+                      <p class="price-prop">Links / Redirects</p>
+                      <p class="price-resp ms-auto">Unlimited</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">Link analytics history</p>
+                      <p class="price-resp ms-auto">Last 30 days</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">Branded domains</p>
+                      <p class="price-resp ms-auto">Up to 3</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">API rate limit</p>
+                      <p class="price-resp ms-auto">6 calls / 60 sec</p>
+                    </div>
+                  </div>
+                  
+                  <div class="rest mt-3">
+                     <p class="price-resp2 mc3">QR Codes</p>
+                    <div class="d-flex">
+                      <p class="price-prop">Links / Redirects</p>
+                      <p class="price-resp ms-auto">Unlimited</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">Link analytics history</p>
+                      <p class="price-resp ms-auto">Last 30 days</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">Branded domains</p>
+                      <p class="price-resp ms-auto">Up to 3</p>
+                    </div>
+                    <div class="d-flex">
+                      <p class="price-prop">API rate limit</p>
+                      <p class="price-resp ms-auto">6 calls / 60 sec</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <p class="price-price mc2">$ 29.00 <span class="price-desc" style="font-weight: 400;">/ Month</span></p>
+                  <div class="">
+                    <button type="button" class="btn btn-white btn-block">
+                      sign up
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card" style="border: 1px solid pink">
-                <div class="card-header py-3" style="background-color: pink">
-                  <p class="text-uppercase small white mb-2">
-                    <strong>Essential</strong>
-                  </p>
-                  <h5 class="white mb-0">$19/month</h5>
-                </div>
-                <div class="card-body">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Feature</li>
-                    <li class="list-group-item">Feature</li>
-                    <li class="list-group-item">Feature</li>
-                    <li class="list-group-item">Feature</li>
-                  </ul>
-                </div>
-                <div class="card-footer bg-white py-4">
-                  <button type="button" class="btn btn-promo btn-sm">
-                    Buy now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-header main-background py-3">
-                  <p class="text-uppercase small white mb-2">
-                    <strong>Advanced</strong>
-                  </p>
-                  <h5 class="white mb-0">$49/month</h5>
-                </div>
-                <div class="card-body">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Feature</li>
-                    <li class="list-group-item">Feature</li>
-                    <li class="list-group-item">Feature</li>
-                    <li class="list-group-item">Feature</li>
-                    <li class="list-group-item">Feature</li>
-                  </ul>
-                </div>
-                <div class="card-footer bg-white py-4">
-                  <button type="button" class="btn btn-explore btn-sm">
-                    Buy now
-                  </button>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-header main-background py-3">
-                  <p class="text-uppercase small white mb-2">
-                    <strong>Enterprise</strong>
-                  </p>
-                  <h5 class="white mb-0">$189/month</h5>
-                </div>
-
-                <div class="card-body">
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Feature</li>
-                    <li class="list-group-item">Feature</li>
-                    <li class="list-group-item">Feature</li>
-                    <li class="list-group-item">Feature</li>
-                    <li class="list-group-item">Feature</li>
-                    <li class="list-group-item">Feature</li>
-                  </ul>
-                </div>
-
-                <div class="card-footer bg-white py-4">
-                  <button type="button" class="btn btn-explore btn-sm">
-                    Buy now
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+          </div>         
         </div>
       </section>
 
-      <div id="contact-panel">
-        <div class="row g-0">
-          <div class="col-xl-5 p-0">
-            <div class="address-panel">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
-                >&times;</a
-              >
-              <div class="mt-6">
-                <img src="images/svg/logo-white.svg" class="w-50" alt="" />
-              </div>
-              <p class="mt-4">Lorem, ipsum dolor.</p>
-              <p>Lorem, ipsum dolor sit amet consectetur.</p>
-              <p class="mt-4">Lorem, ipsum dolor.</p>
-              <p>Lorem, ipsum dolor sit amet consectetur.</p>
-              <p class="mt-4">Lorem, ipsum dolor.</p>
-            </div>
-          </div>
-          <div class="col-xl-7">
-            <form id="contact-form">
-              <h5 class="mb-4"><strong>Leave Us A Message</strong></h5>
-              <div class="mb-3">
-                <div class="mt-3">
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    class="form-line2"
-                    placeholder="Name"
-                  />
-                </div>
-                <div class="mt-3">
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    class="form-line2"
-                    placeholder="Email"
-                  />
-                </div>
-                <div class="mt-3">
-                  <input
-                    type="text"
-                    id="phone"
-                    name="phone"
-                    class="form-line2"
-                    placeholder="Phone"
-                    onkeypress="return isNumberKey(event)"
-                  />
-                </div>
-                <div class="mt-3">
-                  <input
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    class="form-line2"
-                    placeholder="Subject"
-                  />
-                </div>
-
-                <textarea
-                  class="mt-3 form-line2"
-                  id="message"
-                  name="message"
-                  rows="5"
-                  placeholder="Message"
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-try btn-lg btn-block">
-                Send
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
+      <?php include 'includes/contact-panel.php' ?>
     </div>
+
+<?php include 'includes/footer.php' ?>

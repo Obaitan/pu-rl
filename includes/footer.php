@@ -1,12 +1,9 @@
 <footer>
       <div class="container p-4">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-           
-            <a href="index.html" class="navbar-brand">
-              <p class="text-logo">The Logo</p>
-            </a>
-            <p class="fm-text">
+        <div class="row align-items-start">
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">           
+            <img src="../images/svg/logo-white.svg" class="w-50" alt="">
+            <p class="fm-text mt-3">
               Few collaborators have access to this repository. Only you can
               contribute to this repository. Many that are bundled with the
               theme will experience failure.
@@ -30,14 +27,15 @@
             </div>
           </div>
 
+          <div class="col-md-1 d-lg-none"></div>
           <div
-            class="col-lg-3 col-md-6 mt-4 mt-lg-0 mb-4 mb-md-0 d-flex justify-content-lg-center"
+            class="col-lg-3 col-md-5 mt-4 mt-md-0 mb-4 mb-md-0 d-flex justify-content-lg-center"
           >
             <div>
               <p class="footer-header">Navigation Links</p>
               <ul class="list-unstyled mb-0">
                 <li class="mb-1">
-                  <a href="index.html" class="b-link">Home</a>
+                  <a href="index.php" class="b-link">Home</a>
                 </li>
                 <li class="mb-1">
                   <a href="#" class="b-link">About</a>
@@ -59,7 +57,7 @@
           </div>
 
           <div
-            class="col-lg-2 col-md-6 mt-4 mt-lg-0 mb-4 mb-md-0 d-flex justify-content-lg-start"
+            class="col-lg-2 col-md-5 mt-4 mt-lg-0 mb-4 mb-md-0 d-flex justify-content-lg-start"
           >
             <div>
               <p class="footer-header">Other Links</p>
@@ -68,7 +66,7 @@
                   <a href="#" class="b-link">Privacy Policy</a>
                 </li>
                 <li class="mb-1">
-                  <a href="#" class="b-link">Help</a>
+                  <a href="#" class="b-link">Terms of Service</a>
                 </li>
                 <li class="mb-1">
                   <a href="#" class="b-link">Features</a>
@@ -77,7 +75,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0 mt-4 mt-lg-0">
+          <div class="col-lg-3 col-md-7 mb-4 mb-md-0 mt-4 mt-lg-0">
             <div>
               <p class="footer-header">Enquiries</p>
               <div class="d-flex justify-content-start align-items-center mb-2">
@@ -93,14 +91,6 @@
                 <p class="fa-text mb-0">
                   8 Atanda Street, Ladipo, Oshodi, Lagos, Nigeria
                 </p>
-              </div>
-            </div>
-            <div class="mt-4">
-              <p class="footer-header mb-2">Consult Us</p>
-              <div>
-                <a href="#contact-us" class="btn btn-footer ml-0"
-                  >Drop us a line</a
-                >
               </div>
             </div>
           </div>

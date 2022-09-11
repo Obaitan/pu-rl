@@ -1,21 +1,30 @@
 <div id="contact-panel">
         <div class="row g-0">
-          <div class="col-xl-5 p-0">
+          <div class="col-md-4 p-0 order-2 order-md-1">
             <div class="address-panel">
               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
                 >&times;</a
               >
-              <div class="mt-6">
+              <div class="mt-6 mb-4">
                 <img src="images/svg/logo-white.svg" class="w-50" alt="" />
               </div>
-              <p class="mt-4">Lorem, ipsum dolor.</p>
-              <p>Lorem, ipsum dolor sit amet consectetur.</p>
-              <p class="mt-4">Lorem, ipsum dolor.</p>
-              <p>Lorem, ipsum dolor sit amet consectetur.</p>
-              <p class="mt-4">Lorem, ipsum dolor.</p>
+              <div class="d-flex justify-content-start align-items-center mb-3">
+                <i class="fas fa-phone-alt"></i>
+                <p class="panel-text mb-0">+234 801 100 9600</p>
+              </div>
+              <div class="d-flex justify-content-start align-items-center mb-3">
+                <i class="fas fa-envelope"></i>
+                <p class="panel-text mb-0">help@pu-rl.com</p>
+              </div>
+              <div class="d-flex justify-content-start align-items-start">
+                <i class="fas fa-map-marker-alt"></i>
+                <p class="panel-text mb-0">
+                  8 Atanda Street, Ladipo, Oshodi, Lagos, Nigeria
+                </p>
+              </div>
             </div>
           </div>
-          <div class="col-xl-7">
+          <div class="col-md-8 order-1 order-md-2">
             <form id="contact-form">
               <h5 class="mb-4"><strong>Leave Us A Message</strong></h5>
               <div class="mb-3">

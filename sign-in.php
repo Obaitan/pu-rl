@@ -70,7 +70,7 @@
                 <div class="text-center">
                   <span class="form-check-label">Don't have an account?</span>
                   <span class="mx-1"></span>
-                  <a href="sign-up.html" class="form-check-label accept"
+                  <a href="sign-up.php" class="form-check-label accept"
                     >Sign Up</a
                   >
                 </div>

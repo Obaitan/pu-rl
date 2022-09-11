@@ -24,6 +24,11 @@ function scrollToTop() {
 }
 // End of script
 
+// Animate menu icon
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+
 // Sticky Top Nav
 document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", function () {
@@ -85,12 +90,13 @@ typeWriter();
 
 // Contact Us Panel
 function openNav() {
-  document.getElementById("contact-panel").style.width = "700px";
+  document.getElementById("contact-panel").style.right = "0";
 }
 
 function closeNav() {
-  document.getElementById("contact-panel").style.width = "0";
+  document.getElementById("contact-panel").style.right = "-700px";
 }
+
 
 // Limit input to the + sign and numbers only
 function isNumberKey(evt) {

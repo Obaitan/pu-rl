@@ -37,7 +37,7 @@
         <!-- Container wrapper -->
         <div class="container">
           <!-- Navbar brand -->
-          <a class="navbar-brand me-2" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <img src="images/svg/logo.svg" class="logo" alt="Logo" />
             <img
               src="images/svg/logo-white.svg"
@@ -47,7 +47,7 @@
           </a>
 
           <div
-            class="group navbar-toggler"
+            class="group navbar-toggler me-2"
             data-mdb-toggle="collapse"
             data-mdb-target="#navbarNav"
             aria-controls="navbarNav"
@@ -66,9 +66,9 @@
           >
           <?php $activePage = basename($_SERVER['PHP_SELF'], ".php"); ?>
             <ul class="navbar-nav my-3 my-lg-0" id="menu-wrap">
-              <li class="nav-item dropdown mx-lg-4">
+              <li class="nav-item dropdown mx-lg-3 mx-xl-4">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle <?= ($activePage == 'index') ? 'active' : ''; ?>"
                   href="#"
                   id="drop"
                   role="button"
@@ -79,28 +79,28 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="drop">
                   <li>
-                    <a class="dropdown-item" href="#url">URL Shortener</a>
+                    <a class="dropdown-item" href="index.php#url">URL Shortener</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#qrcode">QR Codes</a>
+                    <a class="dropdown-item" href="index.php#qrcode">QR Codes</a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="#!">Integrations</a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item mx-lg-4">
-                <a class="nav-link" href="pricing.html">Pricing</a>
+              <li class="nav-item mx-lg-3 mx-xl-4">
+                <a class="nav-link <?= ($activePage == 'pricing') ? 'active' : ''; ?>" href="pricing.php">Pricing</a>
               </li>
-              <li class="nav-item mx-lg-4">
-                <a class="nav-link" href="#!">APIs</a>
+              <li class="nav-item mx-lg-3 mx-xl-4">
+                <a class="nav-link <?= ($activePage == 'api') ? 'active' : ''; ?>" href="#!">APIs</a>
               </li>
 
-              <li class="nav-item mx-lg-4">
+              <li class="nav-item mx-lg-3 mx-xl-4">
                 <a class="nav-link" href="#!" onclick="openNav()">Contact Us</a>
               </li>
-              <li class="nav-item mx-lg-4">
-                <a class="btn btn-sign" href="sign-in.html" role="button"
+              <li class="nav-item mx-lg-3 mx-xl-4 my-2 mt-lg-0">
+                <a class="btn btn-sign" href="sign-in.php" role="button"
                   >Sign In</a
                 >
               </li>
