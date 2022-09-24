@@ -17,13 +17,13 @@
 
             <div>
               <a
-                class="btn btn-try btn-large"
+                class="btn btn-try btn-large mt-2 mt-md-0"
                 href="sign-up.php"
                 role="button"
                 >get started</a
               >
               <a
-                class="btn btn-explore btn-large lm"
+                class="btn btn-explore btn-large lm mt-2 mt-md-0"
                 href="pricing.php"
                 role="button"
                 >see pricing</a

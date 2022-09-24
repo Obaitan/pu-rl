@@ -597,12 +597,16 @@ textarea:focus.form-line {
   width: 85%;
 }
 
-.palette-cap {
+.palette-cap, .palette-cap2 {
   color: #114f9b;
   font-size: 18px;
   font-weight: 500;
   text-transform: capitalize;
   letter-spacing: .03em;
+}
+
+.palette-cap2 {
+  font-size: 17px;
 }
 
 .palette-text{
@@ -653,7 +657,7 @@ textarea:focus.form-line {
 }
 
 .plan-base{
-  background-color: #f9f9f9;
+  background-color: #f6f6f6;
   padding: 3rem;
 }
 
@@ -706,8 +710,8 @@ textarea:focus.form-line {
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 28px;
+  width: 50px;
+  height: 24px;
 }
 
 /* Hide default HTML checkbox */
@@ -733,8 +737,8 @@ textarea:focus.form-line {
 .slider:before {
   position: absolute;
   content: "";
-  height: 22px;
-  width: 22px;
+  height: 18px;
+  width: 18px;
   left: 3px;
   bottom: 3px;
   background-color: white;
@@ -751,14 +755,14 @@ input:focus+.slider {
 }
 
 input:checked+.slider:before {
-  -webkit-transform: translateX(32px);
-  -ms-transform: translateX(32px);
-  transform: translateX(32px);
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
 }
 
 /* Rounded sliders */
 .slider.round {
-  border-radius: 34px;
+  border-radius: 25px;
 }
 
 .slider.round:before {

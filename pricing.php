@@ -8,13 +8,13 @@
           </div>          
           <div class="col-xl-10 mx-auto plan-base">
             <div class="d-flex justify-content-center mb-3">
-              <p class="palette-cap mc2">pay monthly</p>
+              <p class="palette-cap2 mc2">pay monthly</p>
               <!-- Toggle switch -->
               <label class="switch mx-3">
                 <input type="checkbox">
                 <span class="slider round"></span>
               </label>
-              <p class="palette-cap mc2">Pay yearly</p>
+              <p class="palette-cap2 mc2">Pay yearly</p>
             </div>
             <div class="row g-3">
               <div class="col-lg-4">
